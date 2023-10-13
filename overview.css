@@ -1,0 +1,135 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.right-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* Section2 eligility */
+
+/* Add this CSS to your existing styles.css or create a new CSS file */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-column h1{
+    flex: 1;
+    padding: 15px;
+    margin-right: 10px;
+
+    
+}
+
+h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* You can add more styling as needed */
+
+.card img{
+    width: 450px;
+    height: 300px;
+    
+}
+.card{
+    /* display: inline-block; */
+    border: 2px solid rgb(124, 119, 119);
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    padding: 15px 0px 15px;
+    margin-top: 15px;
+    
+  
+}
+
+.card-body{
+    padding: 20px;
+}
+.card-image-top{
+    height: 300px;
+background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

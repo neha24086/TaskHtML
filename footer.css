@@ -1,0 +1,75 @@
+footer{
+    margin-top: 15px;
+    }
+    .foot-panel1{
+      background-color: #1370e2;
+      color: white;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.85rem;
+      
+    }
+    .foot-panel2{
+      background-color: #1e1e1f;
+      color: white;
+      height: 300px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .futbutton{
+        background-color: blue;
+        color: white;
+        height: 25px;
+    }
+    .foot-panel2 ul{
+      margin-top: 20px;
+    }
+    .foot-panel2 ul a{
+      display: block;
+      font-size: 0.85rem;
+      margin-top: 10px;
+      color: #dddddd;
+    }
+    .foot-panel3{
+    
+      background-color: #333335;
+      color: white;
+      height: 300px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+   .Fblogo{
+    width: 400px;
+    background-image: url("/images/Fblogo.avif");
+   }
+    .logo{
+      background-image: url("/images/logo");
+      background-size: cover;
+      height: 40px;
+      width: 400px;
+      margin-right: 1100px;
+      margin-bottom: 150px;
+/* clip-path: circle(); */
+    }
+    .foot-panel4{
+      background-color: #1e75c7;
+      color: white;
+      height: 80px;
+      font-size: 0.7rem;
+      text-align: center;
+    
+    }
+    .pages{
+    padding-top: 25px;
+    }
+    
+    .copy-right{
+      padding-top:5px ;
+    }
+    
+    .foricon img{
+      width: 10px;
+    }
+    

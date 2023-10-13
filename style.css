@@ -1,0 +1,98 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+.knee-section  img{
+    /* Style main image of the knee and description section */
+    width: 100%;
+    height: 400px;
+}
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+position: absolute;
+top: 10%;
+color: white;
+padding: 10px;
+}
+.clickable-navbar nav{
+    /* Style clickable navbar section */
+
+
+}
+
+.carousel-slider {
+    /* Style carousel slider section */
+}
+
+
+/* for Navbar section */
+
+.navbar {
+    background-color: #4e59f3;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 60px;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search-button {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+input[type="text"] {
+    padding: 2px;
+    border: none;
+    border-radius: 1px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+   
+}
+
+
+
+.clickable-navbar li {
+    display: inline;
+    margin-left: 20px;
+} 

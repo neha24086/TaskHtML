@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hospital Key Replacement</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overview.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <header>
+      <section class="contact-details">
+        <!-- Contact details here -->
+      </section>
+      <section class="navbar">
+       
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#treatment">Treatment</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#hospitals">Hospitals</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#request-quote">Request a Quote</a></li>
+          </ul>
+        </nav>
+        <div class="search-button">
+          <input type="text" placeholder="Search" />
+          <button>Search</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="knee-section">
+        <!-- Main image of knee and description here -->
+
+        <div class="banner-card">
+        
+          <img src="./images/knee.jpg" alt="" >
+          <div class="banner-text">
+            <span> Home > Treatments > Orthopaedics > Knee Replacement</span>
+            <h1>Total Knee Replacement</h1><br>
+            <h5>Total knee replacement is a surgery to remove and replace the whole<br>
+              damaged knee joint with an artificial joint
+            </h5>
+          </div>
+          <!-- <button type="button">Enquire Now</button> -->
+        </div>
+      </section>
+      
+      <div class="w3-bar w3-black">
+        <!-- <a href="overview.html">Overview</a> -->
+        <button class="w3-bar-item w3-button" onclick="openCity('London')">Overview</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Eligibility')">Eligibility</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Preparation')">Preparation</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('About Treatment')">About Treatment</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Post Treatment Care')">Post Treatment Care</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Recovery Tips')">Recovery Tips</button>
+      
+       <button class="w3-bar-item w3-button" onclick="openCity('FAQs')">FAQs</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Patient Stories')">Patient Stories</button>
+      
+      <!-- <div id="London" class="w3-container city">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Paris" class="w3-container city" style="display:none">
+        <h2>Paris</h2>
+        <p></p> 
+      </div>
+      
+      <div id="Tokyo" class="w3-container city" style="display:none">
+        <h2>Tokyo</h2>
+        <p></p>
+      </div> -->
+      
+      <script>
+      function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        document.getElementById(cityName).style.display = "block";  
+      }
+      </script>
+      <!-- overview start-->
+      <div id="London">
+        <section>
+          <div class="container">
+            <div class="left-column">
+              <h1>Treatment Overview</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget
+                felis nec justo blandit scelerisque. Sed vitae varius risus, id
+                congue est. Vivamus vestibulum metus id volutpat.
+              </p>
+            </div>
+            <div class="right-column">
+              <img src="./images/pic1.jpg" alt="Image Description" />
+            </div>
+          </div>
+        </section>
+        <hr />
+        <!-- Eligibility For Treatment -->
+    
+        <section class="contact-section">
+          <div class="left-column">
+            <h1>Eligibility For Treatment</h1>
+            <p>
+                Inpatients in IHS and IHS funded facilities and those receiving inpatient care under contract,
+                 including contract health services, may continue to receive such care and necessary follow-up services at Indian Health Service expense until the need for hospitalization and follow-up 
+                
+            </p>
+            <a>In general, gastric btpass could'be a good option if:</a>
+            <ul>
+                <li>The BMI (body mass index)is 40 or more</li>
+                <li>The BMI is 30 or more with severe welght-related health
+                    condition type-2 diabeles and high blood pressure
+                </li>
+                <li>You are Willing to make permanent changes in the lifestyle</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h1><i>Need Help?</i></h1>
+            <h6>Just let us know.We will be happy to assist you</h6>
+            <form action="submit_form.php" method="POST">
+              <label for="name"></label>
+              <input type="text" placeholder="Full Name" />
+    
+              <label for="email"></label>
+              <input type="text" placeholder="Email" />
+    
+              <label for="email"></label>
+              <input type="text" placeholder="Phone Number" />
+    
+              <label for="message"></label>
+              <textarea
+                placeholder="Describe Your Treatment Requirement"
+                rows="5"
+                required
+              ></textarea>
+    
+              <input type="submit" value="Send Enquire" />
+            </form>
+          </div>
+        </section>
+        <hr />
+          <!--  Preparation Before Treatment  start-->
+        <section>
+            <div class="left-column">
+                <h1>Preparation Before Treatment</h1>
+                <p>
+                    Inpatients in IHS and IHS funded facilities and those receiving inpatient care under contract,
+                     including contract health services, may continue to receive such care and necessary follow-up services at Indian Health Service expense until the need for hospitalization and follow-up 
+                    
+                </p>
+                <a>In general, gastric btpass could'be a good option if:</a>
+                <ul>
+                    <li>The BMI (body mass index)is 40 or more</li>
+                    <li>The BMI is 30 or more with severe welght-related health
+                        condition type-2 diabeles and high blood pressure
+                    </li>
+                    <li>You are Willing to make permanent changes in the lifestyle</li>
+                </ul>
+              </div>
+        </section>
+        
+          <!-- Preparation Before Treatment  end-->
+       <!-- About Treatment start -->
+         <section>
+            <div class="left-column">
+                <h1>About Treatment</h1>
+                <p>
+                    Inpatients in IHS and IHS funded facilities and those receiving inpatient care under contract,
+                     including contract health services, may continue to receive such care and necessary follow-up services at Indian Health Service expense until the need for hospitalization and follow-up 
+                    
+                </p>
+                <a>In general, gastric btpass could'be a good option if:</a>
+                <ul>
+                    <li>The BMI (body mass index)is 40 or more</li>
+                    <li>The BMI is 30 or more with severe welght-related health
+                        condition type-2 diabeles and high blood pressure
+                    </li>
+                    <li>You are Willing to make permanent changes in the lifestyle</li>
+                </ul>
+              </div>
+        </section>
+    
+         <!-- About Treatment end -->
+            <!-- Post-Treatment Care Treatment  end-->
+           <section>
+            <div class="left-column">
+                <h1> Post-Treatment Care Treatment</h1>
+                <p>
+                    Inpatients in IHS and IHS funded facilities and those receiving inpatient care under contract,
+                     including contract health services, may continue to receive such care and necessary follow-up services at Indian Health Service expense until the need for hospitalization and follow-up 
+                    
+                </p>
+                <a>In general, gastric btpass could'be a good option if:</a>
+                <ul>
+                    <li>The BMI (body mass index)is 40 or more</li>
+                    <li>The BMI is 30 or more with severe welght-related health
+                        condition type-2 diabeles and high blood pressure
+                    </li>
+                    <li>You are Willing to make permanent changes in the lifestyle</li>
+                </ul>
+              </div>
+           </section>
+           
+              <!-- Post-Treatment Care Treatment  end-->
+    
+         <!-- Treatment Recovery Tips start -->
+         <section>
+            <div class="left-column">
+                <h1> Treatment Recovery Tips </h1>
+                <p>
+                    Inpatients in IHS and IHS funded facilities and those receiving inpatient care under contract,
+                     including contract health services, may continue to receive such care and necessary follow-up services at Indian Health Service expense until the need for hospitalization and follow-up 
+                    
+                </p>
+                <a>In general, gastric btpass could'be a good option if:</a>
+                <ul>
+                    <li>The BMI (body mass index)is 40 or more</li>
+                    <li>The BMI is 30 or more with severe welght-related health
+                        condition type-2 diabeles and high blood pressure
+                    </li>
+                    <li>You are Willing to make permanent changes in the lifestyle</li>
+                </ul>
+        </section>
+        
+         <!--  Treatment Recovery Tips end-->
+         <!-- Treatment FAQs start -->
+        <section>
+            <div class="left-column">
+                <h1> Treatment Recovery Tips </h1>
+                <p>
+                    Inpatients in IHS and IHS funded facilities and those receiving inpatient care under contract,
+                     including contract health services, may continue to receive such care and necessary follow-up services at Indian Health Service expense until the need for hospitalization and follow-up 
+                    
+                </p>
+                <a>In general, gastric btpass could'be a good option if:</a>
+                <ul>
+                    <li>The BMI (body mass index)is 40 or more</li>
+                    <li>The BMI is 30 or more with severe welght-related health
+                        condition type-2 diabeles and high blood pressure
+                    </li>
+                    <li>You are Willing to make permanent changes in the lifestyle</li>
+                </ul>
+        </section>
+        
+         <!-- Treatment FAQs end -->
+         <!-- Patient Stories & Videos start -->
+         <section>
+            <div class="card-group">
+                <div class="card">
+                  <img src="/images/picA.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Luke Olfert</h5>
+                    <p class="card-text"><small class="text-muted">New York,USA</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/picB.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Luke Olfert</h5>
+                    <p class="card-text"><small class="text-muted">New York,USA</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/picC.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Luke Olfert</h5>
+                    <p class="card-text"><small class="text-muted">New York,USA</small></p>
+                  </div>
+                </div>
+              </div>
+         </section>
+         
+           <!-- Patient Stories & Videos end -->
+         <!-- Top Orthopaedic Doctors  start-->
+         <section>
+            <div class="card-group" >
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title"><i style="color: red;">Dr.Faique Falke</i></h5>
+                    <p class="card-text"><bold>Musaffah Industrial - Abu Bhabi</bold></p>
+                    <p class="card-text"><small class="text-muted">Doctor Degree & Specialist</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title"><i style="color: red;">Dr.Faique Falke</i></h5>
+                    <p class="card-text"><bold>Musaffah Industrial - Abu Bhabi</bold></p>
+                    <p class="card-text"><small class="text-muted">Doctor Degree & Specialist</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title"><i style="color: red;">Dr.Faique Falke</i></h5>
+                    <p class="card-text"><bold>Musaffah Industrial - Abu Bhabi</bold></p>
+                    <p class="card-text"><small class="text-muted">Doctor Degree & Specialist</small></p>
+                  </div>
+                </div>
+              </div>
+         </section>
+         
+         <!-- Top Orthopaedic Doctors end -->
+         <!-- Recommended Hospitals start -->
+        <section>
+            <div class="card-group">
+               
+                <div class="card">
+                   
+                  <img src="/images/hospital.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apollo Hospital</h5>
+              <p class="card-text"><i  style="color: red;">Bangalore</i></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/hospital3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Medanta Hospital</h5>
+                    <p class="card-text"><i  style="color: red;">Gurgaon</i></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/hospital2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jaslok Hospital</h5>
+                    <p class="card-text"><i  style="color: red;">Mumbai</i></p>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </div>
+
+<!-- overview end-->
+   <!-- footer start -->
+   <footer>
+    <div class="foot-panel1">
+        <p>Stay healthy and strong to enjoy life</p>
+        <h1> We have team of healthcare experts</h1>
+        <button class="button">Get In Touch |</button><br>
+        +91 898779999
+    </div>
+    <div class="foot-panel2">
+      <ul>
+        <p>Important Links</p>
+        <a>-Home</a>
+        <a>-About Us</a>
+        <a>-FAQs</a>
+        <a>-Blog</a>
+        <a>-Contact Us</a>
+      
+      </ul>
+      <ul>
+        <p>Top Hospitals</p>
+     <a>- Apollo Hospitals Delhi</a>
+        <a>- Medanta Hospitals Gurgaon</a>
+        <a>-Max Hospitals Delhi</a>
+        <a>-Jaslok Hospitals Mumbai</a>
+        <a>-Artemis Hospitalsts Gurgaon</a>
+        <a>-Fortis Hospitals Gurgaon</a>
+        <a>-Viwe All</a>
+      
+      </ul>
+      <ul>
+        <p>Speciality Treatments</p>
+        <a>- Knee Replacement Surgeon</a>
+        <a> - Urologist</a>
+        <a> - Spine Surgeon</a>
+        <a> -ENT Surgeons</a>
+        <a> -Orthopedic</a>
+        <a> -Cardiologist</a>
+        <a>-View All</a>
+      </ul>
+      <ul>
+        <p>Medical Tourism Destinations</p>
+        <a> - Medical Tourism in India</a>
+        <a> -  Medical Tourism in Sri Lanka</a>
+        <a> -  Medical Tourism in UAE</a>
+        <a> -  View All</a>
+       
+      </ul>
+    </div>
+    
+    <div class="foot-panel3"> 
+      <!-- <div class="logo"></div> -->
+        <!-- <img src="/images/logo" alt="logo"> -->
+       
+        <ul>
+              <img src="/images/logo" alt="logo">
+          
+          </ul>
+          <ul>
+            <h2>About Aafiya Mediretreats</h2>
+         <a><strong>Aafiya Mediretreats</strong> Lorem ipsum dolor sit amet consectetur <br>
+              ad, qui recusandae obcaecati impedit libero praesentium error?</a>
+            
+          </ul>
+          <ul class="foricon">
+            <h2>Follow Us On</h2>
+           <img src="/images/fblogo" alt="" width="20px">
+           <img src="/images/twitterlogo.webp" alt="" width="20px">
+           <img src="/images/Instagram_logo.webp" alt="" width="20px">
+           <img src="/images/youtubelogo" alt="" width="20px">
+           
+           <div>
+            <a>Customer Service</a>
+            <a>+91 9856555666</a>
+           </div>
+            
+          </ul>
+          
+     </div>
+    <div class="foot-panel4">
+      <div class="pages">
+        <a>Copyright © 2020 Neha.All Right Reserved. Designed by Neha.</a> 
+        <a> Terms And Conditions</a>
+        <a> Privacy Policy</a>
+      
+      </div>
+      <div class="copy-right">
+        © Created By Neha Singh
+      </div>
+    </div>
+  </footer>
+   <!-- footer end -->
+    <script src="script.js"></script>
+  </body>
+</html>
